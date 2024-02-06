@@ -51,8 +51,15 @@ main {
 
 #section1 h1 {
     color: white;
+    font-size: 3em;
+    font-weight: normal;
+    padding: 0.8em;
 }
 
+#section1 p {
+    height: 5em;
+    width: 43em;
+}
 
 
 
