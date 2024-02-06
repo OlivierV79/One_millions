@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Halflings', sans-serif;
+}
+
 main {
     text-align: center;
 }
