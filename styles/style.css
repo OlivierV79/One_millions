@@ -47,20 +47,18 @@ main {
 
 #section1 {
     background: url(../images/hero-image.jpg);
-    padding: 1em;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    background-size: 180%;
+    height: 60vh;
+    background-size: 120em;
 }
 
 #section1 h1 {
     color: white;
     font-size: 3em;
     font-weight: normal;
-    padding: 0.8em;
 }
 
 #section1 p {
@@ -70,9 +68,16 @@ main {
 }
 
 #section1 button {
-    margin: 1em;
     background-color: #e74c3c;
     font-size: 1.8em;
+}
+
+#section1 button i {
+    font-size: 0.5em;
+}
+
+#section1 img {
+    padding-bottom: 1.5em;
 }
 
 
