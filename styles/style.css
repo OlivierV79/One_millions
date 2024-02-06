@@ -66,3 +66,28 @@ footer{
 .nav li {
     color: grey;
 }
+
+.contenaire_vignettes{
+    display: flex;
+    
+}
+
+.icone{
+    color: white;
+}
+
+.fond_icone{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vignette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
