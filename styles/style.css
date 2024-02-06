@@ -1,11 +1,30 @@
+@font-face {
+	font-family: 'Halflings';
+	src: url('../fonts/glyphicons-halflings-regular.woff2') format(‘woff2’),
+		url('../fonts/glyphicons-halflings-regular.ttf') format(‘truetype’)
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+main {
+    text-align: center;
+}
+
 #header {
     background: black;
+    font-weight: bold;
+}
+
+#section1 {
+    background: url(../images/hero-image.jpg);
+}
+
+#section1 h1 {
+    color: white;
 }
 
 
