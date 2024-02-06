@@ -51,34 +51,22 @@ main {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    height: 60vh;
-    background-size: 120em;
+    height: 100vh;
+    background-size: 180%;
 }
 
 #section1 h1 {
     color: white;
     font-size: 3em;
     font-weight: normal;
+    padding: 0.8em;
 }
 
 #section1 p {
     height: 5em;
     width: 43em;
-    color: white;
 }
 
-#section1 button {
-    background-color: #e74c3c;
-    font-size: 1.8em;
-}
-
-#section1 button i {
-    font-size: 0.5em;
-}
-
-#section1 img {
-    padding-bottom: 1.5em;
-}
 
 
 /* Olivier */
@@ -100,7 +88,7 @@ footer{
 
 .icone{
     color: white;
-    font-size: 2rem;
+    font-size: 2remgit;
 }
 
 .fond_icone{
