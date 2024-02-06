@@ -82,7 +82,25 @@ main {
 
 #section2 {
     padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
+
+#section2 h2 {
+    padding: 0.4em;
+}
+
+#section2 hr {
+    width: 8em;
+    color: #E74C3C;
+}
+
+#section2 p span {
+    color: #E74C3C;
+}
+
 
 /* Olivier */
 footer{
