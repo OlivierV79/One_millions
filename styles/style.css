@@ -18,9 +18,31 @@ main {
     text-align: center;
 }
 
+/*  Marie */
 #header {
     background: black;
     font-weight: bold;
+    padding: 1em;
+}
+
+#header img {
+    position: absolute;
+    padding-left: 7em;
+}
+
+#header nav {
+    position: relative;
+    padding-right: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#header nav a {
+    color: gray;
+    padding: 0 2em;
+    text-decoration: none;
+    font-size: 0.8em;
 }
 
 #section1 {
@@ -30,6 +52,8 @@ main {
 #section1 h1 {
     color: white;
 }
+
+
 
 
 /* Olivier */
