@@ -47,6 +47,12 @@ main {
 
 #section1 {
     background: url(../images/hero-image.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-size: 180%;
 }
 
 #section1 h1 {
