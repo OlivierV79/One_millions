@@ -9,11 +9,13 @@
 }
 
 
-
 /* Olivier */
 footer{
     height: 200px;
     background-color: brown;
     color: white;
+}
     
+.nav li {
+    color: grey;
 }
