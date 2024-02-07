@@ -59,7 +59,7 @@ header, main section, footer {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    height: 60vh;
+    /* height: 60vh; */
     background-size: 120em;
 }
 
@@ -70,8 +70,7 @@ header, main section, footer {
 }
 
 #section1 p {
-    height: 5em;
-    width: 43em;
+    
     color: white;
 }
 
@@ -85,7 +84,7 @@ header, main section, footer {
 }
 
 #section1 img {
-    padding-bottom: 1.5em;
+    padding: 1.5em;
 }
 
 #section2 {
@@ -189,8 +188,8 @@ h3, h2{
     
 
     #header{
-        background: red;
-        padding: 0 10px;
+        
+        padding: 10px 10px;
     }
 
     .nav{
@@ -203,5 +202,25 @@ h3, h2{
 
     h1{
         font-size: 2em !important;
+    }
+
+    #section1 p{
+        font-size: 0.9em;
+    }
+
+    #section1 button {
+        font-size: 1em;
+    }
+
+    main section{
+        padding: 0;
+    }
+
+    .vignette{
+        padding: 30px 10px ;
+    }
+
+    footer{
+        padding-left: 10px;
     }
 }
