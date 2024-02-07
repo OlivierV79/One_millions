@@ -34,19 +34,47 @@ header, main section, footer {
     position: absolute;
 }
 
-#header nav, .hambuger {
+.nav, header label, .hambuger {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-#header nav a {
+#header .nav a, .mobileNav a {
     color: gray;
     padding: 0 2em;
     text-decoration: none;
     font-size: 0.8em;
 }
+
+.mobileNav {
+    display: none;
+    flex-direction: column;
+}
+
+#header label input {
+    appearance: none;
+}
+
+.closeNav {
+    display: none;
+}
+
+#header label input:checked ~ .mobileNav {
+    display: flex;
+    z-index: 2;
+}
+
+#header label input:checked ~ .closeNav {
+    color: white;
+    display: block;
+}
+
+#header label input:checked ~ .hambuger {
+    display: none;
+}
+
 
 .hambuger{
     color: white;
@@ -110,10 +138,6 @@ footer{
     background-color: #E74C3C;
     color: white;
     padding-top: 100px;
-}
-    
-.nav li {
-    color: grey;
 }
 
 .contenaire_vignettes{
@@ -192,16 +216,16 @@ h3, h2{
         padding: 10px 10px;
     }
 
-    .nav{
-        display: none !important;
-    }
-
-    header a {
+    header label {
         z-index: 2;
     }
-
+    
     .hambuger{
         display: flex;
+    }
+
+    .nav, .mobileNav {
+        display: none;
     }
 
     h1{
