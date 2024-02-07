@@ -34,7 +34,7 @@ header, main section, footer {
     position: absolute;
 }
 
-#header nav {
+#header nav, .hambuger {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -46,6 +46,11 @@ header, main section, footer {
     padding: 0 2em;
     text-decoration: none;
     font-size: 0.8em;
+}
+
+.hambuger{
+    color: white;
+    display: none;
 }
 
 #section1 {
@@ -172,12 +177,31 @@ h3, h2{
 
 /* ----------------------- MAX 767 ------------------------------ */ 
 
-@media screen and (max-width: 767px) {
-    header {
-        background: red !important;
-    }
+@media screen and (max-width: 991px) {
+    
 
     .contenaire_vignettes {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+
+    #header{
+        background: red;
+        padding: 0 10px;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .hambuger{
+        display: flex;
+    }
+
+    h1{
+        font-size: 2em !important;
     }
 }
