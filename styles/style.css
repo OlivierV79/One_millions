@@ -228,3 +228,12 @@ h3, h2{
         padding-left: 10px;
     }
 }
+
+.fa-circle-up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 2em;
+    
+    color: #333333;
+}
