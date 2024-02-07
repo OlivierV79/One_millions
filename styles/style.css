@@ -216,6 +216,10 @@ h3, h2{
         padding: 0;
     }
 
+    main section p {
+        padding: 0 10px;
+    }
+
     .vignette{
         padding: 30px 10px ;
     }
