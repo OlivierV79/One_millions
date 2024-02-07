@@ -196,6 +196,10 @@ h3, h2{
         display: none !important;
     }
 
+    header a {
+        z-index: 2;
+    }
+
     .hambuger{
         display: flex;
     }
