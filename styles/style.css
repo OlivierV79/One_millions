@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Halflings';
-	src: url('../fonts/glyphicons-halflings-regular.woff2') format(‘woff2’),
-		url('../fonts/glyphicons-halflings-regular.ttf') format(‘truetype’)
+	src: url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"),
+		url("../fonts/glyphicons-halflings-regular.ttf") format("truetype")
 }
 
 * {
